@@ -16,8 +16,11 @@
 <body>
     <div class="container">
         <header>
-            <h1><img src="cozinheira.png"> Receitas da Julia</h1>
-            <nav>
+            <div class="header-top">
+                <img src="cozinheira.png" alt="Logo Cozinheira" class="logo">
+                <h1>Receitas da Julia</h1>
+            </div>
+            <nav class="main-nav">
                 <ul>
                     <li><a href="#bolo">Bolo de Chocolate</a></li>
                     <li><a href="#panqueca">Panqueca Simples</a></li>
@@ -85,7 +88,14 @@
         </main>
 
         <footer>
-            <p>&copy; 2025 Receitas da Julia. Todos os direitos reservados.</p>
+            <div class="footer-content">
+                <p>&copy; 2025 Receitas da Julia. Todos os direitos reservados.</p>
+                <nav class="footer-nav">
+                    <a href="#bolo">Bolo</a> |
+                    <a href="#panqueca">Panqueca</a> |
+                    <a href="#salada">Salada</a>
+                </nav>
+            </div>
         </footer>
     </div>
 </body>
